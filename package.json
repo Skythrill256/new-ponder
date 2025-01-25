@@ -1,0 +1,31 @@
+{
+  "name": "schema",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "ponder dev",
+    "start": "ponder start",
+    "db": "ponder db",
+    "codegen": "ponder codegen",
+    "lint": "eslint .",
+    "typecheck": "tsc",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "ethers": "^6.13.4",
+    "hono": "^4.5.0",
+    "ponder": "^0.8.6",
+    "viem": "^2.21.55",
+    "vitest": "^2.1.8"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "eslint": "^8.53.0",
+    "eslint-config-ponder": "^0.8.6",
+    "typescript": "^5.2.2"
+  },
+  "engines": {
+    "node": ">=18.14"
+  }
+}
