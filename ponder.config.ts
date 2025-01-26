@@ -1,6 +1,9 @@
 import { createConfig } from "ponder";
 import { http } from "viem";
 import { DefaultNetworkState } from "./abis/DefaultNetworkState";
+import dotenv from "dotenv";
+
+dotenv.config();
 
 export default createConfig({
   networks: {
