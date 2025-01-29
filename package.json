@@ -4,8 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "ponder dev",
-    "start": "ponder start",
+    "start": "ponder dev",
+    "dev": "ponder start",
     "db": "ponder db",
     "codegen": "ponder codegen",
     "lint": "eslint .",
