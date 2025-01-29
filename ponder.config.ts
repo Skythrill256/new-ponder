@@ -3,6 +3,10 @@ import { http } from "viem";
 import { DefaultNetworkState } from "./abis/DefaultNetworkState";
 
 export default createConfig({
+  database: {
+    kind: "postgres",
+    connectionString: "postgresql://neondb_owner:npg_zSB73xCOWmoK@ep-sparkling-smoke-a826xz6s-pooler.eastus2.azure.neon.tech/neondb?sslmode=require"
+  },
   networks: {
     amoy: {
       chainId: 80002,
